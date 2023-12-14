@@ -1,5 +1,6 @@
 *** Settings ***
-Resource    ../RESOURCES/dashboard_staging.resource
+Resource            ../RESOURCES/dashboard_staging.resource
+Suite Teardown      Close Browser    All
     
 
 *** Test Cases ***
